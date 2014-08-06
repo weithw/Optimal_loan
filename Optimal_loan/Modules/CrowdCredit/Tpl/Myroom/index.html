@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<link href="__PUBLIC__/Css/myroom.css" rel="stylesheet" type="text/css"/><!-- html&css链接-->
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/reset.css">
+		<meta charset="UTF-8">
+		<title>优贷网-我的房间</title>
+	</head>
+	<body>
+		<div class="navigator">
+			<ul class="navigator"ul>
+    			<li class="navigatorli"></li>
+				<li class="navigatorli"><a class="navigatora" href="{:U('/CrowdCredit/Index/Index')}">首页</a></li>
+        		<li class="navigatorli"><a class="navigatora" href="{:U('/CrowdCredit/Myroom')}">我的房间</a></li>
+        		<li class="navigatorli"><a class="navigatora" href="{:U('Index/Icenter/Index')}">个人中心</a></li>
+			</ul>
+		</div>
+		<div class="roomtitle">我的房间</div>
+		<div class="roomlist">
+			<div class="tablerow">房间名</div>
+			<div class="tablerow">房主名</div>
+		</div>
+		<notempty name="ownroom">
+		<div class="rooms">
+			<div class="tableline">
+				<div class="tablerow">{$ownroom.room_name}</div>
+				<div class="tablerow">{$ownroom.master}</div>
+			</div>
+			<div class="entrebutton">
+				<input type="button" value="进入房间" onclick="window.location.href='{:U('CrowdCredit/Chatroom/chatroom?ID='.$ownroom[ID])}'">
+			</div>
+		</div>
+		</notempty>
+
+		<div class="roomtitle">我的收藏
+		</div>
+		<div class="roomlist">
+			<div class="tablerow">房间名</div>
+			<div class="tablerow">房主名</div>
+		</div>
+		<volist  name="collectroom" id='c'>
+		<div class="rooms">
+			<div class="tableline">
+				<div class="tablerow">{$c.room_name}</div>
+				<div class="tablerow">{$c.master}</div>
+			</div>
+			<div class="entrebutton">
+				<input type="button" value="进入房间" onclick="window.location.href='{:U('CrowdCredit/Chatroom/chatroom?ID='.$c[ID])}'">
+			</div>
+		</div>
+		</volist>
+		<div class="bottom">		
+		</div>
+	</body>
+</html>

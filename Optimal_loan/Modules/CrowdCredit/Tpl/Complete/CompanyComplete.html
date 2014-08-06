@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>优贷网-企业贷</title>
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/companycomplete.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/reset.css">
+</head>
+<body>
+<div class="navigator">
+            <ul>
+                <li class="navigatorli"></li>
+                <li class="navigatorli"><a class="navigatora" href="{:U('Index/Index/Index')}">首页</a></li>
+                <li class="navigatorli"><a class="navigatora" href="{:U('/CrowdCredit/Index/Index/index')}">众贷</a></li>
+                <li class="navigatorli"><a class="navigatora" href="xxx">担保</a></li>
+                <li class="navigatorli"><a class="navigatora" href="xxx">投资</a><li>
+                <li class="navigatorli"><a class="navigatora" href="{:U('Index/Icenter/Index')}">个人中心</a></li>
+            </ul>
+        </div>
+<div class="main">
+<form action="{:U('CrowdCredit/Complete/CompanyCheck')}" method="post">
+    <div class="maintop">
+        <div class="contain color1">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="containnavi" href="{:U('Complete/complete')}" >个人资料</a>
+            &nbsp;&nbsp;
+            <a class="containnavi" href="{:U('Complete/CompanyComplete')}">企业信息</a>
+    		&nbsp;&nbsp;
+    		<a class="containnavi" href="{:U('Complete/vertify')}" >审核记录</a>
+    	</div>
+    	<div class="contain">
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		企业名称
+    		<input type="text" class="text"  name="enterprise_name">
+    	</div>
+    	<div class="contain color1">
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		企业地址
+    		<input  type="text" class="text" name="enterprise_addr" >
+    	</div>
+    	<div class="contain">
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		住房类型
+    		<input type="radio" name="house_type" value="1" checked  > 有商品房 
+			<input type="radio" name="house_type" value="2"  > 有其他（非商品）
+            <input type="radio" name="house_type" value="3"  > 无房
+    	</div>
+    	<div class="contain color1">
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		房产价值
+    		<input type="text" class="text"  name="house_value">元
+    	</div>
+        <div class="contain">
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		是否购车
+    		<input type="radio" name="buy_car" value="1" checked  > 是
+			<input type="radio" name="buy_car" value="2"  > 否
+    	</div>
+        <div class="contain color1">
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		车辆价值
+    		<input type="text" class="text" name="car_value">元&nbsp;&nbsp;&nbsp;(若有多辆填写总价值)
+    	</div>
+    	<div class="contain">
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		第一证明人
+    		<input type="text" class="text"  name="first_certifier">
+    	</div>
+        <div class="contain color1">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		第一证明人手机
+    		<input type="text" class="text"  name="first_telephone">
+    	</div>
+    	<div class="contain">
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		第一证明人身份证
+    		<input type="text" class="text"  name="first_id_num" >
+    	</div>
+       <div class="contain color1">
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		第二证明人
+    		<input type="text" class="text"  name="second_certifier">
+    	</div>
+    	<div class="contain">
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		第二证明人手机
+    		<input type="text" class="text"  name="second_telephone" >
+    	</div>
+        <div class="contain color1">
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		第二证明人身份证
+            <input type="text" class="text"  name="second_id_num" >
+        </div>
+        <div class="contain">
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    	 贷款年限
+            <input type="text" class="text" name="year">年
+            <select name="season" id="season" name="season">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            季度
+    	</div>
+    	<div class="contain color1">
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		贷款金额
+    		<input type="text" class="text" name="loan_amount">元
+    	</div>
+         <div class="contain">
+    	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    		整体描述
+    		<textarea cols="5" rows="4" name="summary"></textarea>
+    	</div>
+
+    </div>
+	<div class="mainbottom">
+		<input type="submit" value="保存并继续" style="text-align:center" class="sub1"  name="">
+	</div>
+</div>
+
+<div class="bottom">
+</div>
+</form>
+</body>
+</html>

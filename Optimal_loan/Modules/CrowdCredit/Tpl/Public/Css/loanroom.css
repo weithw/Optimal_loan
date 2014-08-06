@@ -1,0 +1,138 @@
+.navigator{
+	width:100%;
+	height:100px;
+	background-color:rgb(21,112,166);
+	position:relative;
+	padding-left:0em;
+	line-height:0px;}
+.navigatorli{
+	float:left;
+	width:25%;
+	height:50%;
+	padding-left:0em;
+	padding-top:3em;
+	text-align:center;
+	display:inline;
+	list-style:none;
+	font-size:25px;
+	/*border-right:1px;
+	border-right-color:rgb(235,163,82);
+	border-right-style:groove;
+	
+	line-height:20px;*/
+}
+a.navigatora{
+	color:rgb(255,255,255);
+		font-size:25px;
+		font-weight:bold;
+		text-decoration:none;
+		
+}
+a.navigatora:hover{
+	color:rgb(213,93,12);
+	text-decoration:none;}
+.choose{
+	width: 100%;
+	height: 60px;
+}
+.chooseYears{
+	width: 20%;
+	float: left;
+	text-align:right;
+	padding-right: 10px;
+}
+.chooseMoney{
+	width: 30%;
+	float: left;
+	text-align:right;
+	padding-left: 10px;
+}
+.newRoom{
+	float: left;
+	text-align:left;
+	
+}
+.rooms{
+	width: 1300px;
+	margin:0 auto;
+}
+.otherRoom{
+	width: 266px;
+	height: 237px;
+	margin-left: 10px; 
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	/* padding: 10px,10px,10px,10px; */
+	float: left;
+	border: 1px solid #000;
+	
+}
+.message{
+	width: 266px;
+	height: 180px;
+	text-align: center;
+}
+.entry{
+	width: 266px;
+	height: 37px;
+	text-align: center;
+}
+.mask{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.6;
+	display: none;
+	z-index: 100;
+}
+tr{
+	display: block;
+}
+.left{
+	display: block;
+	height: 30px;
+	font-size:18px;
+	width: 100px;
+}
+.right{
+	display: block;
+	height: 30px;
+	font-size: 16px;
+	width: 250px;
+}
+#maskform{
+	width: 370px;
+	padding: 45px 10px 1px 10px;
+	background: #ccc;
+	display: none;
+	position: absolute;
+	z-index: 101;
+	margin: 0px auto;
+}
+.subtd{
+	text-align: center;
+	width: 350px;
+	padding-top: 20px;
+}
+input[type=text]{
+	width: 100%;
+}
+#intro{
+	height: 100px;
+	width: 250px;
+	resize:none;
+}
+.exit{
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+	background: white;
+	color: red;
+	font-weight: bold;
+	box-shadow: 0px 0px 1px #fff;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
