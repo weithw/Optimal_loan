@@ -11,7 +11,10 @@ class BorrowerModel extends Model
         array('start_time','time',1,'function'), 
         array('borrow_type','getborrowtype',1,'callback'),
     );
-
+    
+    public function updateInfo($info) {
+        $this->where('username="'.$info['username'].'"')->save($info);
+    }
     function getusername(){
       return session('username');
     }
