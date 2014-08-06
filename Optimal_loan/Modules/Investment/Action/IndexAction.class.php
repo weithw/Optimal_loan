@@ -5,6 +5,7 @@
 */
 class IndexAction extends Action
 {
+
 	public function index(){
         //$this->display();
         echo I("POST.money") . " yuan";

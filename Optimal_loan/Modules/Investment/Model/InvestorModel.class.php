@@ -10,6 +10,7 @@ class InvestorModel extends Model
         array('start_time','time',1,'function'), 
     );
 
+
     public function addHistory($username, $invest_amount, $history_id) {
     	$user = $this->where('username="'. $username .'"')->find();
         $history = $user['invest_history'];
@@ -33,6 +34,5 @@ class InvestorModel extends Model
         $this->where('username="'.$info['username'].'"')->save($info);
     }
 }   
-
 
 ?>

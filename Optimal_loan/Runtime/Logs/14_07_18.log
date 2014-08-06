@@ -1,0 +1,291 @@
+[ 2014-07-18T10:55:45+08:00 ] 0.0.0.0 /blog/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004114s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026625s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\blog\ThinkPHP3.1.3_full\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' C:\wamp\www\blog\ThinkPHP3.1.3_full\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.002567s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002263s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002008s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009894s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002557s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002763s ]
+
+[ 2014-07-18T13:10:28+08:00 ] 0.0.0.0 /blog/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.045073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.045984s ]
+ERR: 无法加载模块:Index
+
+[ 2014-07-18T13:12:07+08:00 ] 0.0.0.0 /blog/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005337s ]
+ERR: 无法加载模块:Index
+
+[ 2014-07-18T21:59:27+08:00 ] 0.0.0.0 /blog/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.019989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029924s ]
+ERR: 无法加载模块:Index
+
+[ 2014-07-18T22:02:37+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.052004s ]
+INFO: [ route_check ] --END-- [ RunTime:0.052501s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003045s ]
+NOTIC: [8] Use of undefined constant VERIFY_LENGTH - assumed 'VERIFY_LENGTH' C:\wamp\www\blog\APP\Class\Image.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant VERIFY_WIDTH - assumed 'VERIFY_WIDTH' C:\wamp\www\blog\APP\Class\Image.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant VERIFY_HEIGHT - assumed 'VERIFY_HEIGHT' C:\wamp\www\blog\APP\Class\Image.class.php 第 72 行.
+NOTIC: [8] Use of undefined constant VERIFY_BGCOLOR - assumed 'VERIFY_BGCOLOR' C:\wamp\www\blog\APP\Class\Image.class.php 第 73 行.
+NOTIC: [8] Use of undefined constant VERIFY_SEED - assumed 'VERIFY_SEED' C:\wamp\www\blog\APP\Class\Image.class.php 第 74 行.
+NOTIC: [8] Use of undefined constant VERIFY_FONTFILE - assumed 'VERIFY_FONTFILE' C:\wamp\www\blog\APP\Class\Image.class.php 第 75 行.
+NOTIC: [8] Use of undefined constant VERIFY_SIZE - assumed 'VERIFY_SIZE' C:\wamp\www\blog\APP\Class\Image.class.php 第 76 行.
+NOTIC: [8] Use of undefined constant VERIFY_COLOR - assumed 'VERIFY_COLOR' C:\wamp\www\blog\APP\Class\Image.class.php 第 77 行.
+NOTIC: [8] Use of undefined constant VERIFY_NAME - assumed 'VERIFY_NAME' C:\wamp\www\blog\APP\Class\Image.class.php 第 78 行.
+NOTIC: [8] Use of undefined constant VERIFY_FUNC - assumed 'VERIFY_FUNC' C:\wamp\www\blog\APP\Class\Image.class.php 第 79 行.
+NOTIC: [2] imagecreatetruecolor() expects parameter 1 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 82 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 86 行.
+NOTIC: [2] imagefill() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 87 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 92 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] mt_rand() expects parameter 2 to be long, string given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagestring() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 93 行.
+NOTIC: [2] imagecolorallocate() expects parameter 1 to be resource, null given C:\wamp\www\blog\APP\Class\Image.class.php 第 97 行.
+
+[ 2014-07-18T22:06:08+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005658s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004110s ]
+
+[ 2014-07-18T22:06:09+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003407s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003802s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003457s ]
+
+[ 2014-07-18T22:06:10+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003397s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003818s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003492s ]
+
+[ 2014-07-18T22:06:10+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003575s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003956s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003361s ]
+
+[ 2014-07-18T22:06:11+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003249s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003609s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003459s ]
+
+[ 2014-07-18T22:06:11+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003689s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004092s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003308s ]
+
+[ 2014-07-18T22:06:12+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003463s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003843s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003404s ]
+
+[ 2014-07-18T22:06:12+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004300s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004702s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003392s ]
+
+[ 2014-07-18T22:06:12+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003846s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004229s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003335s ]
+
+[ 2014-07-18T22:06:12+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003892s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004273s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003327s ]
+
+[ 2014-07-18T22:06:13+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003803s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004563s ]
+
+[ 2014-07-18T22:20:05+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005212s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005591s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003967s ]
+
+[ 2014-07-18T22:20:06+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003483s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003858s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003357s ]
+
+[ 2014-07-18T22:21:36+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003686s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004070s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003459s ]
+
+[ 2014-07-18T22:21:40+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002459s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002139s ]
+
+[ 2014-07-18T22:24:57+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.005963s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006379s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004218s ]
+
+[ 2014-07-18T22:25:06+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003558s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003134s ]
+
+[ 2014-07-18T22:25:08+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004405s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004801s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004537s ]
+
+[ 2014-07-18T22:25:09+08:00 ] 0.0.0.0 /blog/Index.php/Admin/Login/Verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003328s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003741s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003457s ]
+

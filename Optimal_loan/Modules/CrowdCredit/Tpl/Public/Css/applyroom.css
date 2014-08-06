@@ -1,0 +1,226 @@
+.navigator{
+	margin:0; padding:0 ;
+	width:1250px;
+	height:100px;
+	background:url("../imgs/nav2.png");
+	background-size: 100% 100%;
+	position:relative;
+	padding-right:0em;
+	line-height:0px;
+	margin: 0px auto;
+	top: -24px;
+}
+.navigator ul{
+	position: relative;
+	right: -520px;
+	list-style: none;
+}
+.navigatorli{
+	float:left;
+	width:131px;
+	height:50%;
+	padding-right:0em;
+	padding-top:2em;
+	text-align:center;
+	display:inline;
+	list-style:none;
+	font-size:25px;
+	/*border-right:1px;
+	border-right-color:rgb(235,163,82);
+	border-right-style:groove;
+	
+	line-height:20px;*/
+}
+a.navigatora{
+	color:rgb(255,255,255);
+		font-size:25px;
+		font-weight:bold;
+		text-decoration:none;
+		
+}
+a.navigatora:hover{
+	color:rgb(213,93,12);
+	text-decoration:none;}
+.room{
+	margin: 20px auto;
+	width: 700px;
+	height: 500px;
+	position: relative;
+}
+.abs{
+	position: absolute;
+}
+.chatcontent{
+	width: 500px;
+	height: auto;
+	top: 0px;
+	left: 0px;
+}
+.chatcontent ul{
+	list-style: none;
+	position: relative;
+	top: 10px;
+	left: -35px;
+	font-size: 18px;
+}
+.chatcontent li{
+	list-style: none;
+}
+.members{
+	width: 200px;
+	top: 0px;
+	right: 0px;
+	height: auto;
+}
+.members div{
+	height: 200px;
+	width: 200px;
+	float: left;
+	position: relative;
+}
+.members span{
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	top: 25px;
+	right: 35px;
+	background: #ccc;
+}
+.sendbody{
+	height: 100px;
+	width: 500px;
+	bottom: 0px;
+	left: 0px;
+}
+.sendbody textarea{
+	height: 94px;
+	width: 493px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.sendbody textarea:focus{
+	outline: none;
+}
+.sendbody .send{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	resize:none;
+}
+#membersstage{
+	height: 500px;
+	width: 200px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	overflow: hidden;
+} 
+#chatcontentstage{
+	height: 400px;
+	width: 500px;
+	position: absolute;
+	overflow: hidden;
+	top: 0px;
+	left: 0px;
+}
+#clong{
+	position: relative;
+	height: 300px;
+	float: right;
+	width: 20px;
+	top: 10px;
+	overflow: hidden;
+}
+#cshort{
+	position: absolute;
+	height: 80px;
+	top: 5px;
+	left: 5px;
+	width: 10px;
+	background: #ccc;
+	z-index: 4;
+}
+
+#mlong{
+	position: absolute;
+	height: 500px;
+	float: right;
+	width: 20px;
+	top: 10px;
+	right: 0px;
+	overflow: hidden;
+}
+#mshort{
+	position: absolute;
+	height: 90px;
+	top: 15px;
+	right: 5px;
+	width: 10px;
+	background: #ccc;
+	z-index: 4;
+}
+.short{
+	border-radius: 5px;
+}
+.mask{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.6;
+	display: none;
+	z-index: 100;
+}
+tr{
+	display: block;
+}
+.left{
+	display: block;
+	height: 30px;
+	font-size:18px;
+	width: 100px;
+}
+.right{
+	display: block;
+	height: 30px;
+	font-size: 16px;
+	width: 250px;
+}
+#maskform{
+	width: 370px;
+	padding: 45px 10px 1px 10px;
+	background: #ccc;
+	display: none;
+	position: absolute;
+	z-index: 101;
+	margin: 0px auto;
+}
+.subtd{
+	text-align: center;
+	width: 350px;
+	padding-top: 20px;
+}
+input[type=text]{
+	width: 100%;
+}
+#intro{
+	height: 100px;
+	width: 250px;
+	resize:none;
+}
+.exit{
+	height: 30px;
+	width: 30px;
+	border-radius: 15px;
+	background: white;
+	color: red;
+	font-weight: bold;
+	box-shadow: 0px 0px 1px #fff;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+span{
+	cursor: pointer;
+}

@@ -55,7 +55,6 @@ class IndexAction extends Action {
        Image::verify(4,200,50); 
         //验证码存在session[‘verify’]中
     }
-
     public function getUserInfo() {
         if(!IS_POST) $this->error("非法进入");
         $username = I('POST.username');

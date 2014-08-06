@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>优贷网-房贷</title>
+<!-- <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/check.css"> -->
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/reset.css">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/vertify.css">
+</head>
+<body>
+ <div class="navigator">
+            <ul>
+                <li class="navigatorli"></li>
+                <li class="navigatorli"><a class="navigatora" href="{:U('Index/Index/Index')}">首页</a></li>
+                <li class="navigatorli"><a class="navigatora" href="{:U('/CrowdCredit/Index/Index/index')}">众贷</a></li>
+                <li class="navigatorli"><a class="navigatora" href="xxx">担保</a></li>
+                <li class="navigatorli"><a class="navigatora" href="xxx">投资</a><li>
+                <li class="navigatorli"><a class="navigatora" href="{:U('Index/Icenter/Index')}">个人中心</a></li>
+            </ul>
+        </div>
+
+    <div class="main">
+    <form action="{:U('CrowdCredit/Loanroom/loanroom')}" method="post">
+        <div class="maintop">
+            <div class="contain color1">
+    		  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="containnavi" href="{:U('Complete/complete')}" >个人资料</a>
+            &nbsp;&nbsp;
+            <switch name="Think.session.borrow_type">
+                <case value='1'><a class="containnavi" href="{:U('Complete/CarComplete')}">车辆信息
+                </case>
+                <case value="2"><a class="containnavi" href="{:U('Complete/HouseComplete')}">房产信息
+                </case>
+                <case value="4"><a class="containnavi" href="{:U('Complete/CompanyComplete')}">企业信息
+                </case>
+            </switch>
+            &nbsp;&nbsp;
+            <a class="containnavi" href="{:U('Complete/vertify')}" >审核记录</a>
+            </div>
+            <table> 	
+            <tr class="contain">
+            <td>提交时间</td>
+            <td>审核状态</td>
+            <td>贷款状态</td>
+            <td>最高借入额度（已审核)</td>
+            </tr>
+            <tr class="contain color1">
+            <td>{$create_time|date="Y-m-d",###}</td>
+            <td><switch name="audit_status">
+                <case value='1'>正在审核</case>
+                <case value='2'>审核通过</case>
+                <case value='3'>审核不通过</case>
+            </switch></td>
+            <td><switch name="loan_status">
+                <case value='1'>未开始贷款</case>
+                <case value='2'>已开始贷款</case>
+                <case value='3'>已完成还款</case>
+            </switch></td>
+            <td>{$max_loan|number_format}</td>
+            </tr>
+            </table>
+        </div>
+        <div class="mainbottom">
+            <input type="submit" value="进入房间" style="text-align:center" class="sub1"> 
+        </div>
+    </form>
+    </div>
+    <div class="bottom">
+    </div>
+</body>
+</html>
